@@ -248,3 +248,17 @@ And finally, if you want to be an efficient reviewer and appear smart (perhaps s
 1. Then read the test bodies. If they're testing all over the place, make a comment.
 1. If they're not testing the right thing, make a comment.
 1. Proceed to review the code under test. This is now pretty easy if you assume that the tests actually run. At this point you can mainly focus on style, efficiency, and things like that.
+
+### Common complaints
+
+- This is all very trivial
+
+  I beg to differ. I see so much code without tests, and I see so many tests which don't really provide much value. You might of course be perfect.
+
+- This is all very fun, but ultimately not very interesting
+
+  We all have our things. Testing is one of mine. I hope it can be one of yours too.
+
+- Naming test methods is all fine and dandy, but that doesn't explain why the behavior was added in the first place.
+
+  That's true. This is also why I started by saying that what I've described here is not the end goal. Explaining the reasoning behind having a specific behavior in the first place is (in my view) a hard problem to solve without going crazy with documentation. My best bet is to at least make sure it's part of the original commit message, possibly with a link to a task/story/design somewhere.
